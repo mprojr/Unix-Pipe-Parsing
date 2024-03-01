@@ -1,0 +1,8 @@
+input_var x,y,z;
+internal_var p0,p1,p2;
+   x -> p0;
+   y -> p1;
+ + z -> p1;
+   p1 -> p2;
+ - p0 -> p2;
+write(x, y, z, p0, p1, p2).
