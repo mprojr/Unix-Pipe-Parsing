@@ -39,23 +39,23 @@ How to run:
 
   * First we compile the program
 
-    g++ HW1.cpp -o HW1
+    g++ Engine.cpp -o Engine
   
   * Second we use command line to import needed files
 
-    "./HW1 [input-graph-file] [initial-values-file] [output-file-name]"
+    "./Engine [input-graph-file] [initial-values-file] [output-file-name]"
 
     For example:
 
-    ./HW1 s1-1.txt input1-1.txt output0.txt
+    ./Engine s1-1.txt input1-1.txt output0.txt
     or
-    ./HW1 s2.txt input2.txt output1.txt
+    ./Engine s2.txt input2.txt output1.txt
 
 
 Troubleshooting:
 
   * If you run into any problems, insert the same commands 
-    into the second .cpp file in the folder "HW1wDebug.cpp."
+    into the second .cpp file in the folder "EnginewDebug.cpp."
     This version of the program provides an extensive amount of debugging statements that print out on the console, 
     this should provide more details to see what is going
     wrong.
